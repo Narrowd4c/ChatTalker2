@@ -1,0 +1,25 @@
+.head{
+    padding: 24px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(max-width:600px) {
+    .head{
+        background:$bg-white;
+        border-bottom: 3px solid #FFD153;
+    }
+}
+.head-btn{
+    border-radius: 22px;
+    width: 128px;
+    text-align: center;
+    padding: 8px;
+    cursor: pointer;
+     color: #fff;
+    background: red;
+     font:  normal 16px/24px $font-main;
+     &:hover{
+         text-decoration: underline;
+     }
+}

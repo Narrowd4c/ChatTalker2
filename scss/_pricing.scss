@@ -1,0 +1,135 @@
+.wrap{
+    max-width: 1136px;
+    margin: 0 auto;
+}
+.w-909{
+    max-width: 909px;
+}
+.member{
+    overflow-x:scroll;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    padding:0px 40px;
+}
+@media(max-width:740px){
+    .member{
+        justify-content: start;
+    }
+}
+.member-btn{ 
+    border-radius: 27px;
+    width: 130px;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid $primary-color;
+    color: $primary-color;
+   font: normal normal normal 18px/26px Comfortaa;
+    background: white;
+    margin-right: 16px;
+    cursor: pointer;
+    &:focus,&:hover{
+        color:#fff;
+        background:$primary-color;
+    }
+}
+
+
+.plan-card{
+    width: clamp(303px, 100% ,444px);
+    padding: 10px 29px 38px 23px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    text-align: center;
+}
+.plan-convert{
+    width: 169px;
+    padding: 24px;
+    background:$bg-white;
+    border-radius: 12px;
+     &-num{
+    font:normal 32px/35px $convert-text;  
+}
+    &-font{
+        margin-left:8px; 
+        font: normal normal normal 12px/17px $font-main;
+    }
+}
+.plan-footer{
+    font: normal normal normal 16px/24px $font-main;
+    margin-bottom: 16px;
+    text-align: start;
+    span>img{
+        margin-right: 12.94px;
+    }
+}
+@media(max-width:600px){
+    .plan-footer{
+        font: normal normal normal 14px/20px $font-main;
+    }
+}
+
+.faq{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 2px 10px #00000014;
+    border-radius: 12px;
+    padding: 16px 32px;
+    cursor: pointer;
+   & div::after{
+        width: 20px;
+        height: 20px;
+        margin:0px 0px 0px auto;
+        content: "";
+        background:no-repeat;
+        background: url("/chatTalker_images/icon_plus.svg");
+    }
+    &:nth-child(3)>div::after{
+        width: 20px;
+        height: 2px;
+        margin:10px 0px 0px auto;
+        content: "";
+        background:no-repeat;
+        background: url("/chatTalker_images/icon_minus.svg");
+    }
+}
+@media(max-width:600px){
+    .faq{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+}
+
+.ball{
+    position: absolute;
+    top: 876px;
+    left: -312px;
+    z-index: -1;
+    width: 361px;
+}
+@media(max-width:600px){
+    .ball{
+        width: 209px;
+        top:1363px;
+        left: -113px;
+    }
+}
+.img-banner{
+    background:url(/chatTalker_images/banner.svg) no-repeat;  
+    width:clamp(0px, 100%,885px);
+    max-width: 885px;
+    height:clamp(0px, 60%,559px); 
+    position: absolute;
+    top: 0px;
+    right: 0; 
+    z-index: -1; 
+}
+@media(max-width:375px){
+    .img-banner{
+       background: url(/chatTalker_images/banner_sm.svg) no-repeat;
+        width: 375px;
+        height: 495px;
+        top: 60px;
+    }
+}
