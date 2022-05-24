@@ -68,6 +68,10 @@ a {
   outline: none;
 }
 
+.ol {
+  outline: solid red;
+}
+
 .btn-tohead {
   width: 71px;
   height: 71px;
@@ -106,10 +110,17 @@ a {
           align-items: center;
 }
 
+.logo > img {
+  width: 218px;
+}
+
 @media (max-width: 600px) {
   .head {
     background: #F5F5F5;
     border-bottom: 3px solid #FFD153;
+  }
+  .logo > img {
+    width: 130px;
   }
 }
 
@@ -130,12 +141,6 @@ a {
 
 .wrap {
   max-width: 1136px;
-}
-
-.wrap2 {
-  max-width: 1136px;
-  margin: 0 auto;
-  padding: 0px 24px;
 }
 
 @media (max-width: 1136px) {
@@ -212,12 +217,41 @@ a {
   z-index: -1;
 }
 
-.w-244 {
-  max-width: 250px;
+.fanpage {
+  width: 30%;
 }
 
-.w-969 {
-  max-width: 969px;
+.fanpage img {
+  width: 90px;
+}
+
+.fanpage-title {
+  font: bold 24px/35px Noto Sans TC;
+  margin: 24px 0px;
+}
+
+.fanpage-essay {
+  font: normal 16px/24px Noto Sans TC;
+  color: #747474;
+}
+
+@media (max-width: 996px) {
+  .fanpage {
+    width: 100%;
+    margin-bottom: 24px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .fanpage img {
+    width: 60px;
+  }
+  .fanpage-title {
+    margin: 16px 0px;
+    font: bold 18px/26px Noto Sans TC;
+  }
 }
 
 @media (max-width: 996px) {
@@ -233,17 +267,21 @@ a {
   }
 }
 
-.logo > img {
-  width: 218px;
-}
-
-@media (max-width: 600px) {
-  .logo > img {
-    width: 130px;
-  }
-}
-
 .character {
+  max-width: 1136px;
+  margin: 0 auto;
+  padding: 0px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.character-card {
   background: #FFFFFF 0% 0% no-repeat padding-box;
   -webkit-box-shadow: 0px 2px 10px #00000014;
           box-shadow: 0px 2px 10px #00000014;
@@ -267,18 +305,21 @@ a {
   margin: 0 auto;
   margin-bottom: 28px;
   padding: 32px 0px 48px 32px;
+  -webkit-box-shadow: 0px 2px 10px #00000014;
+          box-shadow: 0px 2px 10px #00000014;
 }
 
-.feature-card div {
+.feature-card .feature-img {
   width: 86px;
   text-align: center;
   margin-bottom: 24px;
   padding: 17px;
   -webkit-box-shadow: 0px 2px 10px #00000014;
           box-shadow: 0px 2px 10px #00000014;
+  border-radius: 50%;
 }
 
-.feature-card h5 {
+.feature-card .feature-title {
   margin-bottom: 16px;
   font: bold 18px/26px Noto Sans TC;
 }
@@ -295,6 +336,7 @@ a {
   position: relative;
   padding: 48px 32px 24px;
   background: #FFFFFF;
+  margin-right: 16px;
 }
 
 .recommend-card .user {
@@ -387,7 +429,7 @@ a {
 }
 
 .plan-card {
-  width: clamp(303px, 100%, 444px);
+  max-width: 444px;
   padding: 10px 29px 38px 23px;
   background: #FFFFFF;
   -webkit-box-shadow: 0px 2px 10px #00000014;
@@ -396,9 +438,16 @@ a {
   text-align: center;
 }
 
+@media (max-width: 600px) {
+  .plan-card {
+    max-width: 335px;
+    padding: 16px 16px 24px 16px;
+  }
+}
+
 .plan-convert {
   width: 169px;
-  padding: 24px;
+  padding: 24px 0px;
   background: #F5F5F5;
   border-radius: 12px;
 }
@@ -410,6 +459,15 @@ a {
 .plan-convert-font {
   margin-left: 8px;
   font: normal normal normal 12px/17px Noto Sans TC;
+}
+
+@media (max-width: 600px) {
+  .plan-convert {
+    padding: 16px 0;
+  }
+  .plan-convert-num {
+    font: normal 28px/28px Comfortaa;
+  }
 }
 
 .plan-footer {
@@ -434,6 +492,7 @@ a {
           box-shadow: 0px 2px 10px #00000014;
   border-radius: 12px;
   padding: 16px 32px;
+  margin-bottom: 16px;
   cursor: pointer;
 }
 
@@ -443,7 +502,7 @@ a {
   margin: 0px 0px 0px auto;
   content: "";
   background: no-repeat;
-  background: url("/chatTalker_images/icon_plus.svg");
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg");
 }
 
 .faq:nth-child(3) > div::after {
@@ -452,7 +511,7 @@ a {
   margin: 10px 0px 0px auto;
   content: "";
   background: no-repeat;
-  background: url("/chatTalker_images/icon_minus.svg");
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg");
 }
 
 @media (max-width: 600px) {
@@ -478,25 +537,25 @@ a {
   }
 }
 
-.img-banner{
-    background:url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg") no-repeat;  
-    width:clamp(0px, 100%,885px);
-    max-width: 885px;
-    height:clamp(0px, 60%,559px); 
-    position: absolute;
-    top: 0px;
-    right: 0; 
-    z-index: -1; 
-}
-@media(max-width:375px){
-    .img-banner{
-       background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg") no-repeat;
-        width: 375px;
-        height: 495px;
-        top: 60px;
-    }
+.img-banner {
+  background: url(/chatTalker_images/banner.svg) no-repeat;
+  width: clamp(0px, 100%, 885px);
+  max-width: 885px;
+  height: clamp(0px, 60%, 559px);
+  position: absolute;
+  top: 0px;
+  right: 0;
+  z-index: -1;
 }
 
+@media (max-width: 375px) {
+  .img-banner {
+    background: url(/chatTalker_images/banner_sm.svg) no-repeat;
+    width: 375px;
+    height: 495px;
+    top: 60px;
+  }
+}
 
 .d-none {
   display: none;
@@ -529,6 +588,14 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.justify-content-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .align-items-center {
@@ -709,18 +776,10 @@ a {
 
 .btn2 {
   border-radius: 27px;
-  width: 139px;
   text-align: center;
   padding: 12px;
-  cursor: pointer;
-}
-
-.btn3 {
-  border-radius: 27px;
   width: 136px;
   border: 1px solid #56C4C5;
-  text-align: center;
-  padding: 12px;
   cursor: pointer;
 }
 
@@ -869,9 +928,9 @@ a {
   .px-sm-32 {
     padding: 0px 32px;
   }
-  .px-sm-20 {
-    padding-right: 20px;
-    padding-left: 20px;
+  .px-sm-16 {
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }
 /*# sourceMappingURL=all.css.map */

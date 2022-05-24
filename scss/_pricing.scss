@@ -36,16 +36,22 @@
 
 
 .plan-card{
-    width: clamp(303px, 100% ,444px);
+    max-width: 444px;
     padding: 10px 29px 38px 23px;
     background: #FFFFFF;
     box-shadow: 0px 2px 10px #00000014;
     border-radius: 12px;
     text-align: center;
 }
+@media(max-width:600px){
+    .plan-card{
+        max-width: 335px;
+        padding: 16px 16px 24px 16px;
+    }
+}
 .plan-convert{
     width: 169px;
-    padding: 24px;
+    padding: 24px 0px;
     background:$bg-white;
     border-radius: 12px;
      &-num{
@@ -54,6 +60,14 @@
     &-font{
         margin-left:8px; 
         font: normal normal normal 12px/17px $font-main;
+    }
+}
+@media(max-width:600px){
+    .plan-convert{
+        padding: 16px 0;
+         &-num{
+           font:normal 28px/28px $convert-text;
+        }
     }
 }
 .plan-footer{
@@ -70,11 +84,13 @@
     }
 }
 
+//add margin-botttom
 .faq{
     background: #FFFFFF 0% 0% no-repeat padding-box;
     box-shadow: 0px 2px 10px #00000014;
     border-radius: 12px;
     padding: 16px 32px;
+    margin-bottom: 16px;
     cursor: pointer;
    & div::after{
         width: 20px;
@@ -82,7 +98,7 @@
         margin:0px 0px 0px auto;
         content: "";
         background:no-repeat;
-        background: url("/chatTalker_images/icon_plus.svg");
+        background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_plus.svg");
     }
     &:nth-child(3)>div::after{
         width: 20px;
@@ -90,7 +106,7 @@
         margin:10px 0px 0px auto;
         content: "";
         background:no-repeat;
-        background: url("/chatTalker_images/icon_minus.svg");
+        background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/icon_minus.svg");
     }
 }
 @media(max-width:600px){
@@ -116,7 +132,7 @@
     }
 }
 .img-banner{
-    background:url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg") no-repeat;  
+    background:url(/chatTalker_images/banner.svg) no-repeat;  
     width:clamp(0px, 100%,885px);
     max-width: 885px;
     height:clamp(0px, 60%,559px); 
@@ -127,9 +143,9 @@
 }
 @media(max-width:375px){
     .img-banner{
-      background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg") no-repeat;
-      width: 375px;
-      height: 495px;
-      top: 60px;
+       background: url(/chatTalker_images/banner_sm.svg) no-repeat;
+        width: 375px;
+        height: 495px;
+        top: 60px;
     }
 }

@@ -4,12 +4,19 @@
     justify-content: space-between;
     align-items: center;
 }
+.logo>img{
+    width: 218px;   
+}
 @media(max-width:600px) {
     .head{
         background:$bg-white;
         border-bottom: 3px solid #FFD153;
     }
+    .logo>img{
+        width: 130px;
+    } 
 }
+
 .head-btn{
     border-radius: 22px;
     width: 128px;
