@@ -11,6 +11,9 @@
     color:#FFF;
     background: $primary-color;
     outline: none;
+    &:hover{
+        opacity: 0.8;
+    }
 }
 @media(max-width:700px){
     .btn-tohead{

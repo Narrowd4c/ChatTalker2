@@ -1,33 +1,36 @@
 .wrap{
     max-width: 1136px;
 }
-
-@media (max-width:1136px) {
-    .wrap2{
-        max-width: 600px;
-    }
-}
 .bg-home{
     position: absolute;
-    top: 0;
+    top: 0px;
     right: 0;
     z-index: -1;
     max-width: 850px;
     height: 768px;
 }
-@media (max-width:996px){
-    .w-sm-304{
+
+@media(max-width:996px){
+    .banner-img{
+    width: clamp(300px, 60%, 600px);
+    position: relative;
+        img{
         width: 100%;
+        }
     }
-    .bg-home-sm{
-    width: 110%;
+    .bg-home-md{
     position: absolute;
-     bottom:-10px;
+    bottom:-10px;
     left: -30px;
     z-index: -1;
    }
 }
-.ball-1{ 
+@media(max-width:600px){
+    .banner-img{
+        left: 20px;
+    }
+}
+.ball-lg{ 
     position: absolute;
     width: 360px;
     left: -222px;
@@ -35,13 +38,13 @@
     z-index: -1;
 }
 @media (max-width:600px) {
-   .ball-1{
+   .ball-lg{
     width: 126px;
     left: -77px;
     top:766px;
    }
 }
-.ball-2{
+.ball-md{
     position: absolute;
     width: 210px;
     height: 320px;
@@ -51,17 +54,17 @@
     z-index: -1;
 }
 @media (max-width:600px) {
-   .ball-2{
+   .ball-md{
     top: 1660px;
     right:0px;
     width: 85px;
     height: 135px;
    }
-   .w-sm-85{
+   &>img{
        width: 135px;
    }
 }
-.ball-3{
+.ball-sm{
     width: 150px;
     position: absolute;
     top: -100px;
@@ -103,12 +106,7 @@
         }
     }
 }
-@media(max-width:996px){
-    .banner-img{
-    width: 90%;
-    position: relative;
-}
-}
+
 @media(max-width:600px){
     .w-sm-60{
         width: 60px;
@@ -122,6 +120,11 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+@media(max-width:1136px){
+    .character{
+        max-width: 600px;
+    }
 }
 
 .character-card{
@@ -191,7 +194,7 @@
     }
 }
 
-.banner{
+.footer-banner{
     position: relative;
     padding-bottom: 100px;
 }
