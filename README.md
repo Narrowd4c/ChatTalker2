@@ -10,7 +10,7 @@ https://narrowd4c.github.io/ChatTalker2/
           =>[wrap .fanpage:30%](https://github.com/Narrowd4c/ChatTalker2/blob/main/scss/_index.scss#L71)
 - [x] 3. 建議避免使用編號命名（如 .wrap2 .ball-2），因無法由編號了解用途，過一段時間再回頭看也會忘記設定編號的原因，因此建議可以改為加上通用樣式，或是改為語意命名.  
           =>[wrap2 => pricing-main, ball-2 => ball-md](https://github.com/Narrowd4c/ChatTalker2/blob/main/scss/_index.scss#L29)
-- [x] 4. .feature-card 也可以嘗試設定 box-shadow 樣式
+- [x] 4. .feature-card 也可以嘗試設定 box-shadow 樣式.  
           [box-shadow](https://github.com/Narrowd4c/ChatTalker2/blob/main/index.scss#L138)
 - [x] 5. 「快速了解客戶輪廓 建立品牌流量池」這裡的文字在 PC 版可以調整為置左排列  
           [text-md-center](https://github.com/Narrowd4c/ChatTalker2/blob/main/index.html#L83)
