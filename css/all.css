@@ -143,10 +143,6 @@ a {
   text-decoration: underline;
 }
 
-.wrap {
-  max-width: 1136px;
-}
-
 .bg-home {
   position: absolute;
   top: 0px;
@@ -387,15 +383,6 @@ a {
   }
 }
 
-.wrap {
-  max-width: 1136px;
-  margin: 0 auto;
-}
-
-.w-909 {
-  max-width: 909px;
-}
-
 .member {
   overflow-x: scroll;
   margin: 0 auto;
@@ -447,7 +434,7 @@ a {
 @media (max-width: 600px) {
   .plan-card {
     max-width: 335px;
-    padding: 16px 16px 24px 16px;
+    padding: 16px 16px 24px;
   }
 }
 
@@ -561,6 +548,14 @@ a {
     height: 495px;
     top: 60px;
   }
+}
+
+.wrap1136 {
+  max-width: 1136px;
+}
+
+.wrap909 {
+  max-width: 909px;
 }
 
 .d-none {
