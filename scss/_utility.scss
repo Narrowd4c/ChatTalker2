@@ -134,6 +134,9 @@
     text-align: center;
     padding: 8px;
     cursor: pointer;
+    &:hover{
+        opacity: 0.8;
+    }
 }
 .btn2{
     border-radius: 27px;
@@ -142,6 +145,9 @@
     width: 136px;
     border: 1px solid $primary-color;
     cursor: pointer;
+    &:hover{
+        opacity: 0.8;
+    }
 }
 
 .btn-primary{

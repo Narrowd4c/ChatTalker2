@@ -538,7 +538,7 @@ a {
 }
 
 .img-banner {
-  background: url(/chatTalker_images/banner.svg) no-repeat;
+  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg") no-repeat;
   width: clamp(0px, 100%, 885px);
   max-width: 885px;
   height: clamp(0px, 60%, 559px);
@@ -550,7 +550,7 @@ a {
 
 @media (max-width: 375px) {
   .img-banner {
-    background: url(/chatTalker_images/banner_sm.svg) no-repeat;
+    background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg") no-repeat;
     width: 375px;
     height: 495px;
     top: 60px;
@@ -774,6 +774,10 @@ a {
   cursor: pointer;
 }
 
+.btn:hover {
+  opacity: 0.8;
+}
+
 .btn2 {
   border-radius: 27px;
   text-align: center;
@@ -781,6 +785,10 @@ a {
   width: 136px;
   border: 1px solid #56C4C5;
   cursor: pointer;
+}
+
+.btn2:hover {
+  opacity: 0.8;
 }
 
 .btn-primary {
