@@ -383,6 +383,10 @@ a {
   }
 }
 
+.pricing_main {
+  max-width: 909px;
+}
+
 .member {
   overflow-x: scroll;
   margin: 0 auto;
@@ -550,12 +554,8 @@ a {
   }
 }
 
-.wrap1136 {
+.wrap {
   max-width: 1136px;
-}
-
-.wrap909 {
-  max-width: 909px;
 }
 
 .d-none {
