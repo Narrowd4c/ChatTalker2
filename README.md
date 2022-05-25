@@ -16,17 +16,17 @@ https://narrowd4c.github.io/ChatTalker2/
           [text-md-center](https://github.com/Narrowd4c/ChatTalker2/blob/main/index.html#L83)
 - [x] 6. .recommend-card 在 PC 版可以設定卡片之間的間距   
           [margin:16](https://github.com/Narrowd4c/ChatTalker2/blob/main/scss/_index.scss#L160)
-- [x] 7. 按鈕、連結、選單等等可點擊的地方都可以嘗試設定 hover 效果
-
-- [x] 8. 部分通用樣式如 w-969、w-909，只有使用在少數特定地方，建議就可以不需另外設定 class 可以和其他樣式寫在一起
-
+- [x] 7. 按鈕、連結、選單等等可點擊的地方都可以嘗試設定 hover 效果.  
+          [opcity:0.8](https://github.com/Narrowd4c/ChatTalker2/blob/main/scss/_utility.scss#L141)
+- [ ] 8. 部分通用樣式如 w-969、w-909，只有使用在少數特定地方，建議就可以不需另外設定 class 可以和其他樣式寫在一起
+          
 
 
 方案費用
 
-- [x] 1. 「彈性選擇，提供您選擇最適合的方案」區塊可以參考設計稿設定左右 padding，在行動版時整體內容看起來較不會太靠近裝置邊緣.   
-          [padding:20. => padding:32](https://github.com/Narrowd4c/ChatTalker2/blob/main/pricing.html#L28)    
-
+- [x] 1.「彈性選擇，提供您選擇最適合的方案」區塊可以參考設計稿設定左右 padding，在行動版時整體內容看起來較不會太靠近裝置邊緣.   
+         [padding:20. => padding:32](https://github.com/Narrowd4c/ChatTalker2/blob/main/pricing.html#L28)    
 - [x] 2. 兩個 .plan-card 是同性質的內容，因此也可以使用 ul li 結構
-
-- [x] 3. 常見問題選單的 icon 未正確顯示，.faq 可以設定垂直間距
+         [ul>li](https://github.com/Narrowd4c/ChatTalker2/blob/main/pricing.html#L36)
+- [x] 3. 常見問題選單的 icon 未正確顯示，.faq 可以設定垂直間距.  
+         [.faq](https://github.com/Narrowd4c/ChatTalker2/blob/main/scss/_pricing.scss#L82)
