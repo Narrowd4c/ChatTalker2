@@ -211,7 +211,7 @@ a {
     width: 85px;
     height: 135px;
   }
-  > img {
+  .ball-md > img {
     width: 135px;
   }
 }
