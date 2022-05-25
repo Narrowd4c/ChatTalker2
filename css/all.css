@@ -85,6 +85,7 @@ a {
   color: #FFF;
   background: #56C4C5;
   outline: none;
+  z-index: 4;
 }
 
 .btn-tohead:hover {
@@ -544,7 +545,7 @@ a {
 }
 
 .img-banner {
-  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg") no-repeat;
+  background: url("/chatTalker_images/banner.svg") no-repeat;
   width: clamp(0px, 100%, 885px);
   max-width: 885px;
   height: clamp(0px, 60%, 559px);
@@ -556,7 +557,7 @@ a {
 
 @media (max-width: 375px) {
   .img-banner {
-    background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg") no-repeat;
+    background: url("/chatTalker_images/banner_sm.svg") no-repeat;
     width: 375px;
     height: 495px;
     top: 60px;
@@ -670,24 +671,8 @@ a {
   margin-bottom: 100px;
 }
 
-.mb-104 {
-  margin-bottom: 104px;
-}
-
 .mb-134 {
   margin-bottom: 134px;
-}
-
-.mb-28 {
-  margin-bottom: 28px;
-}
-
-.mb-94 {
-  margin-bottom: 94px;
-}
-
-.mb-116 {
-  margin-bottom: 116px;
 }
 
 .mb-280 {
@@ -696,10 +681,6 @@ a {
 
 .mb-30 {
   margin-bottom: 30px;
-}
-
-.mb-92 {
-  margin-bottom: 92px;
 }
 
 .mx-21 {
@@ -719,29 +700,44 @@ a {
   margin-right: 0px;
 }
 
-.px-8 {
+.px-1 {
   padding-right: 8px;
   padding-left: 8px;
 }
 
-.px-16 {
+.py-1 {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.px-2 {
   padding-right: 16px;
   padding-left: 16px;
 }
 
-.px-24 {
-  padding-right: 24px;
-  padding-left: 24px;
-}
-
-.py-16 {
+.py-2 {
   padding-top: 16px;
   padding-bottom: 16px;
 }
 
-.py-24 {
+.px-3 {
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.py-3 {
   padding-top: 24px;
   padding-bottom: 24px;
+}
+
+.px-4 {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.py-4 {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .p-32 {
