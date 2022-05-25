@@ -18,8 +18,8 @@ https://narrowd4c.github.io/ChatTalker2/
           [margin:16](https://github.com/Narrowd4c/ChatTalker2/blob/main/scss/_index.scss#L160)
 - [x] 7. 按鈕、連結、選單等等可點擊的地方都可以嘗試設定 hover 效果.  
           [opcity:0.8](https://github.com/Narrowd4c/ChatTalker2/blob/main/scss/_utility.scss#L141)
-- [ ] 8. 部分通用樣式如 w-969、w-909，只有使用在少數特定地方，建議就可以不需另外設定 class 可以和其他樣式寫在一起
-          
+- [x] 8. 部分通用樣式如 w-969、w-909，只有使用在少數特定地方，建議就可以不需另外設定 class 可以和其他樣式寫在一起。  
+                
 
 
 方案費用
