@@ -1,9 +1,13 @@
 .wrap{
-    max-width: 1136px;
+    max-width: 1120px;
+    padding-right: 32px;
+    padding-left: 32px;
     margin: 0 auto;
 }
 .pricing_main {
     max-width: 909px;
+    padding-right: 32px;
+    padding-left: 32px;
 }
 .member{
     overflow-x:scroll;
@@ -131,13 +135,13 @@
     }
 }
 .img-banner{
-    background:url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg") no-repeat;  
+    background:url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg") no-repeat ;
+    background-size: 110% 100%;  
     width:clamp(0px, 100%,885px);
-    max-width: 885px;
-    height:clamp(0px, 60%,559px); 
+    height: 500px;
     position: absolute;
     top: 0px;
-    right: 0; 
+    right: 0;
     z-index: -1; 
 }
 @media(max-width:375px){
