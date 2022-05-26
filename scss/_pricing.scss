@@ -1,4 +1,8 @@
-.pricing_main{
+.wrap{
+    max-width: 1136px;
+    margin: 0 auto;
+}
+.pricing_main {
     max-width: 909px;
 }
 .member{
@@ -20,7 +24,7 @@
     padding: 12px;
     border: 1px solid $primary-color;
     color: $primary-color;
-    font: normal normal normal 18px/26px Comfortaa;
+   font: normal normal normal 18px/26px Comfortaa;
     background: white;
     margin-right: 16px;
     cursor: pointer;
@@ -29,6 +33,8 @@
         background:$primary-color;
     }
 }
+
+
 .plan-card{
     max-width: 444px;
     padding: 10px 29px 38px 23px;
@@ -137,7 +143,6 @@
 @media(max-width:375px){
     .img-banner{
        background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg") no-repeat;
-        width: 375px;
         height: 495px;
         top: 60px;
     }

@@ -85,6 +85,7 @@ a {
   color: #FFF;
   background: #56C4C5;
   outline: none;
+  z-index: 10;
 }
 
 .btn-tohead:hover {
@@ -383,6 +384,11 @@ a {
   }
 }
 
+.wrap {
+  max-width: 1136px;
+  margin: 0 auto;
+}
+
 .pricing_main {
   max-width: 909px;
 }
@@ -548,7 +554,6 @@ a {
 @media (max-width: 375px) {
   .img-banner {
     background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg") no-repeat;
-    width: 375px;
     height: 495px;
     top: 60px;
   }
