@@ -4,6 +4,7 @@
 ---
 https://narrowd4c.github.io/ChatTalker2/
 
+ ## 首頁
 - [x] 1. header 的內容也可以嘗試使用 .wrap 限制寬度，可以在設計稿嘗試使用
 
 - [x] 2. 「三大平台，我來搞定」區塊已經有設定 max-width，裡面的 li 寬度，可以使用 % 來設定，調整上會更有彈性.  
@@ -30,3 +31,5 @@ https://narrowd4c.github.io/ChatTalker2/
          [ul>li](https://github.com/Narrowd4c/ChatTalker2/blob/main/pricing.html#L36)
 - [x] 3. 常見問題選單的 icon 未正確顯示，.faq 可以設定垂直間距.  
          [.faq](https://github.com/Narrowd4c/ChatTalker2/blob/main/scss/_pricing.scss#L82)
+- [ ] 4. 頁面縮小時背景圖片太大 預期效果：寬度改變 高度不變     
+         [.img-banner](https://github.com/Narrowd4c/ChatTalker2/blob/main/scss/_pricing.scss#L136)
