@@ -6,7 +6,7 @@
     max-width: 850px;
     height: 768px;
 }
-@media(max-width:996px){
+@media(max-width:992px){
     .banner-img{
     width: clamp(300px, 60%, 600px);
     position: relative;
@@ -21,7 +21,7 @@
     z-index: -1;
    }
 }
-@media(max-width:600px){
+@media(max-width:767px){
     .banner-img{
         left: 20px;
     }
@@ -33,7 +33,7 @@
     top:589px;
     z-index: -1;
 }
-@media (max-width:600px) {
+@media (max-width:767px) {
    .ball-lg{
     width: 126px;
     left: -77px;
@@ -49,7 +49,7 @@
     overflow: hidden;
     z-index: -1;
 }
-@media (max-width:600px) {
+@media (max-width:767px) {
    .ball-md{
     top: 1660px;
     right:0px;
@@ -83,7 +83,7 @@
     }
 
 }
-@media(max-width:996px){
+@media(max-width:992px){
     .fanpage{
         width: 100%;
         margin-bottom: 24px;
@@ -91,7 +91,7 @@
         margin-left: auto;
     }
 }
-@media (max-width:600px) {
+@media (max-width:767px) {
     .fanpage{
         img{
            width: 60px;
@@ -103,7 +103,7 @@
     }
 }
 
-@media(max-width:600px){
+@media(max-width:767px){
     .w-sm-60{
         width: 60px;
     }
@@ -194,7 +194,7 @@
     position: relative;
     padding-bottom: 100px;
 }
-@media(min-width:996px){
+@media(min-width:992px){
 .footer-body{
     position: absolute;
     top:50%;

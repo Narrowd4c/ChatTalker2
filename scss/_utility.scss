@@ -183,7 +183,7 @@
 .font-6{ 
     font: bold 48px/70px $font-main;
 }
-@media(max-width:600px){
+@media(max-width:767px){
 .font-1{ 
     font:  normal 16px/24px $font-main;
 }
@@ -209,7 +209,7 @@
         font: normal normal bold 32px/46px $font-main;
     }
 }
-@media(max-width:996px) {
+@media(max-width:992px) {
     .d-md-none{
         display: none;
     }
@@ -239,7 +239,7 @@
     position: relative;
 }
 }
-@media (max-width:600px) {
+@media (max-width:767px) {
    .d-sm-block{
     display: block;
    }
@@ -265,6 +265,10 @@
    }
    .px-sm-32{
        padding: 0px 32px;
+   }
+   .px-sm-20{
+        padding-right: 20px;
+        padding-left: 20px;
    }
    .px-sm-16{
        padding-right: 16px;
