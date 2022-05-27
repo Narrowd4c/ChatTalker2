@@ -22,7 +22,7 @@ https://narrowd4c.github.io/ChatTalker2/
           [w-969 ,w-909](https://github.com/Narrowd4c/ChatTalker2/blob/main/scss/_index.scss#L29) => pricing-main       
 
 
-方案費用
+## 方案費用
 
 - [x] 1.「彈性選擇，提供您選擇最適合的方案」區塊可以參考設計稿設定左右 padding，在行動版時整體內容看起來較不會太靠近裝置邊緣.   
          [padding:20. => padding:32](https://github.com/Narrowd4c/ChatTalker2/blob/main/pricing.html#L28)    
