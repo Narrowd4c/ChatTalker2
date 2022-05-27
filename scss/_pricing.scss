@@ -134,20 +134,12 @@
 }
 .img-banner{
     background:url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg") no-repeat ;
-    background-size: 100% ;
-    width:clamp(0px,100%,795px);
-    //width: 795px;
-    height: 500px;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    z-index: -1;
-   
+    background-position-x: 100%;
 }
-@media(max-width:375px){
+@media(max-width:767px){
     .img-banner{
        background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg") no-repeat;
-       width:100%;
-       top: 60px;
+       background-size:clamp(450px, 100%, 900px); 
+       background-position:0% 0%;
     }
 }
