@@ -544,7 +544,7 @@ a {
 }
 
 .img-banner {
-  background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg") no-repeat;
+  background: url("/chatTalker_images/banner.svg") no-repeat;
   background-position-x: 100%;
 }
 
