@@ -546,19 +546,19 @@ a {
 
 .img-banner {
   background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner.svg") no-repeat;
-  background-size: 110% 100%;
-  width: clamp(0px, 100%, 885px);
+  background-size: 100%;
+  width: clamp(0px, 100%, 795px);
   height: 500px;
   position: absolute;
   top: 0px;
-  right: 0;
+  right: 0px;
   z-index: -1;
 }
 
 @media (max-width: 375px) {
   .img-banner {
     background: url("https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/chatTalker_images/banner_sm.svg") no-repeat;
-    height: 495px;
+    width: 100%;
     top: 60px;
   }
 }
